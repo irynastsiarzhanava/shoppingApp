@@ -31,9 +31,9 @@ import { RecipesModule } from './recipes/recipes.module';
     SigninComponent
   ],
   imports: [
-    RecipesModule,
     BrowserModule,
     FormsModule,
+    RecipesModule,
     AppRoutingModule,
     HttpModule
   ],
